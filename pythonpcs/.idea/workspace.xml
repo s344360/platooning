@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da9b4858-898c-4236-9ab6-dee3c83f9aa5" name="Default Changelist" comment="platoon leave if vehicle left platoon lane&#10;&#10;interrupt join process if there is a better platoon&#10;&#10;handle case in between&#10;&#10;platoon size changed&#10;&#10;logging entries added" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Q66Kkfh2DYT3EHE8uab4gGNBss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonplexe-MP_Johannes" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PCS/dependencies/pcs/service/not used" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="AnalyzerLogic" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCS/logicElements/analyzer/pcs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCS/logicElements/analyzer/pcs/AnalyzerLogic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PLEXEProtocolConverter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCS/dependencies/pcs/protocol" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCS/dependencies/pcs/protocol/PLEXEProtocolConverter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PlatooningMessageType" type="PythonConfigurationType" factoryName="Python">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCS/dependencies/pcs/protocol/dataTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCS/dependencies/pcs/protocol/dataTypes/PlatooningMessageType.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VehicleService" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCS/dependencies/pcs/service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCS/dependencies/pcs/service/not used/VehicleService.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="circular_import_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PCS/dependencies/pcs/service" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PCS/dependencies/pcs/service/circular_import_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonpcs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../Python_Plexe/pythonplexe/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testEnvironment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testEnvironment/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.AnalyzerLogic" />
+        <item itemvalue="Python.circular_import_test" />
+        <item itemvalue="Python.VehicleService" />
+        <item itemvalue="Python.PLEXEProtocolConverter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da9b4858-898c-4236-9ab6-dee3c83f9aa5" name="Default Changelist" comment="" />
+      <created>1558350587821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558350587821</updated>
+    </task>
+    <task id="LOCAL-00001" summary="mit protocol package begonnen&#10;&#10;kommunikation mittels json strings eingerichtet">
+      <created>1559569772018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559569772018</updated>
+    </task>
+    <task id="LOCAL-00002" summary="knowledge module implemented&#10;&#10;model module finished (sumo part was missing)&#10;&#10;Abstract Driving Strategy added&#10;&#10;added/improved type hints&#10;&#10;started with navigation module: PLEXE21RoutingModule not finished yet&#10;&#10;some utils/exceptions etc added">
+      <created>1560273034501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560273034501</updated>
+    </task>
+    <task id="LOCAL-00003" summary="RoutingModule Finished&#10;&#10;All required Elements for Platooning/Vehicle Service finished (except for the config)&#10;&#10;started with Platoon/Vehicle Service files">
+      <created>1560769291672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560769291672</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Service Layer finished (except for open questions)">
+      <created>1561381714803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561381714803</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PCSConfig added, and tested - works with the sample config.json&#10;&#10;map loading added to the RoutingModule - whole xml can be parsed &#10;and accessed afterwards&#10;&#10;SensorLogic implemented&#10;&#10;solved some circular import issues&#10;&#10;added notes about the usage of config files">
+      <created>1561991991644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561991991644</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Protocol Converter finished&#10;&#10;DataService introduced in order to avoid cycliv imports&#10;&#10;implemented analyzer and monitor logic&#10;&#10;implemented example StrategyPlanningAlgorithms + added config used to control which Algorithm is used">
+      <created>1562598229346</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562598229346</updated>
+    </task>
+    <task id="LOCAL-00007" summary="PlannerLogic implemented&#10;&#10;ExecutorLogic implemented">
+      <created>1563191776879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563191776879</updated>
+    </task>
+    <task id="LOCAL-00008" summary="all logic moduls implemented&#10;&#10;solved some compatibility issues with Plexe&#10;&#10;still some stuff so fix: nearby Platoons, forwarding of Platoon ID">
+      <created>1563812332920</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563812332920</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some changes&#10;&#10;mainly solved issues caused by the fact, that this PCS processes messages from all vehicles at the same time">
+      <created>1565351936407</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565351936407</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added the correct network file for the corresponding simulation">
+      <created>1565351974667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565351974667</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changed the planners to address the synchronous nature of the python PCS">
+      <created>1567079857316</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1567079857316</updated>
+    </task>
+    <task id="LOCAL-00012" summary="logging functionality - almost finished&#10;added config for logging">
+      <created>1568138373515</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1568138373515</updated>
+    </task>
+    <task id="LOCAL-00013" summary="logging finished&#10;fixes for sequential behaviour">
+      <created>1568210413110</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1568210413110</updated>
+    </task>
+    <task id="LOCAL-00014" summary="platoon leave if vehicle left platoon lane&#10;&#10;interrupt join process if there is a better platoon&#10;&#10;handle case in between&#10;&#10;platoon size changed&#10;&#10;logging entries added">
+      <created>1568638682439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1568638682439</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mit protocol package begonnen&#10;&#10;kommunikation mittels json strings eingerichtet" />
+    <MESSAGE value="knowledge module implemented&#10;&#10;model module finished (sumo part was missing)&#10;&#10;Abstract Driving Strategy added&#10;&#10;added/improved type hints&#10;&#10;started with navigation module: PLEXE21RoutingModule not finished yet&#10;&#10;some utils/exceptions etc added" />
+    <MESSAGE value="RoutingModule Finished&#10;&#10;All required Elements for Platooning/Vehicle Service finished (except for the config)&#10;&#10;started with Platoon/Vehicle Service files" />
+    <MESSAGE value="Service Layer finished (except for open questions)" />
+    <MESSAGE value="PCSConfig added, and tested - works with the sample config.json&#10;&#10;map loading added to the RoutingModule - whole xml can be parsed &#10;and accessed afterwards&#10;&#10;SensorLogic implemented&#10;&#10;solved some circular import issues&#10;&#10;added notes about the usage of config files" />
+    <MESSAGE value="Protocol Converter finished&#10;&#10;DataService introduced in order to avoid cycliv imports&#10;&#10;implemented analyzer and monitor logic&#10;&#10;implemented example StrategyPlanningAlgorithms + added config used to control which Algorithm is used" />
+    <MESSAGE value="PlannerLogic implemented&#10;&#10;ExecutorLogic implemented" />
+    <MESSAGE value="all logic moduls implemented&#10;&#10;solved some compatibility issues with Plexe&#10;&#10;still some stuff so fix: nearby Platoons, forwarding of Platoon ID" />
+    <MESSAGE value="some changes&#10;&#10;mainly solved issues caused by the fact, that this PCS processes messages from all vehicles at the same time" />
+    <MESSAGE value="added the correct network file for the corresponding simulation" />
+    <MESSAGE value="changed the planners to address the synchronous nature of the python PCS" />
+    <MESSAGE value="logging functionality - almost finished&#10;added config for logging" />
+    <MESSAGE value="logging finished&#10;fixes for sequential behaviour" />
+    <MESSAGE value="platoon leave if vehicle left platoon lane&#10;&#10;interrupt join process if there is a better platoon&#10;&#10;handle case in between&#10;&#10;platoon size changed&#10;&#10;logging entries added" />
+    <option name="LAST_COMMIT_MESSAGE" value="platoon leave if vehicle left platoon lane&#10;&#10;interrupt join process if there is a better platoon&#10;&#10;handle case in between&#10;&#10;platoon size changed&#10;&#10;logging entries added" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="433" y="149" width="430" height="486" key="FileChooserDialogImpl" timestamp="1578049020599">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="433" y="149" width="430" height="486" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1578049020599" />
+    <state x="306" y="227" key="com.intellij.ide.util.TipDialog" timestamp="1578048999632">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="306" y="227" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1578048999632" />
+  </component>
+</project>

@@ -1,0 +1,2 @@
+class VehicleException(Exception):
+    pass

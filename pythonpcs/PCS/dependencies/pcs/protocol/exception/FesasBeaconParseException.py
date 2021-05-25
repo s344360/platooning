@@ -1,0 +1,2 @@
+class FesasBeaconParseException(Exception):
+    pass

@@ -1,0 +1,2 @@
+class PlatoonException(Exception):
+    pass

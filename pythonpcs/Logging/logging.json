@@ -1,0 +1,13 @@
+[
+  {
+    "type": "console",
+    "levels": [
+      "DEBUG",
+      "INFO",
+      "WARN",
+      "ERROR",
+      "VEHICLE_ADAPTION",
+      "VEHICLE_STRATEGY"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<routes>
+	
+	<!-- define vehicle types here -->
+	<vType id="vtypeauto" accel="2.5" decel="20" sigma="0.5" length="4" minGap="0" maxSpeed="40" color="1,0,0" probability="1" speedFactor="1" speedDev="0.2" carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5" lanesCount="4" ccAccel="1.5" ploegKp="0.2" ploegKd="0.7" ploegH="0.5" />
+	<vType id="vtypeauto_noplatooning" accel="2.5" decel="20" sigma="0.5" length="4" minGap="20" maxSpeed="50" color="1,0,0" probability="1" speedFactor="1" speedDev="0.2" carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5" lanesCount="4" ccAccel="1.5" ploegKp="0.2" ploegKd="0.7" ploegH="0.5" />
+	<vType id="vtypetruck" accel="2.5" decel="20" sigma="0.5" length="12" minGap="0" maxSpeed="22.222" color="1,0,0" probability="1" speedFactor="1" speedDev="0.1" carFollowModel="CC" tauEngine="0.5" omegaN="0.2" xi="1" c1="0.5" lanesCount="4" ccAccel="1.5" ploegKp="0.2" ploegKd="0.7" ploegH="0.5" />
+   
+	<!-- define routes here -->
+	<route id="A81AK_A8Ei" edges="289941480 25730107 192064428 257301231 257301232 257301233 257301234 257301235 257301236 560443211#0 560443212#0 192916359#0+56044321#1 199347986 199347993#0" />
+	<route id="A81AK_B27Ei" edges="289941480 25730107 192064428 257301231 257301232 257301233 257301234 257301235 257301236 560443211#0 560443212#0 192916359#0+56044321#1 199347986 199348020 199348013" />
+	<route id="A8AK_A8Ei" edges="289941480 25730107 192064428 257301231 257301232 257301233 257301234 257301235 257301236 560443211#0 560443212#0 192916359#0+56044321#1 199347986 199347993#0" />
+	<route id="A8AK_B27Ei" edges="289941480 25730107 192064428 257301231 257301232 257301233 257301234 257301235 257301236 560443211#0 560443212#0 192916359#0+56044321#1 199347986 199348020 199348013" />
+
+	<!-- the following comment is required and will be used to insert the selected flows into this template file. Do not remove/change it! -->
+	<flow id="1" route="A81AK_A8Ei" type="vtypeauto" departSpeed="24" departPos="free" departLane="best" begin="0" end="36000"  vehsPerHour="400"/>
+<flow id="2" route="A81AK_A8Ei" type="vtypetruck" departSpeed="20" departPos="free" departLane="best" begin="0" end="36000"  vehsPerHour="200"/>
+
+
+</routes>

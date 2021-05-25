@@ -1,0 +1,2 @@
+class NoPathFoundException(Exception):
+    pass
